@@ -1,0 +1,67 @@
+.agent-breadcrumb {
+  overflow: visible;
+  &.bg-size {
+    background-position: center !important;
+    background-color: rgba($black, 0.3);
+    background-blend-mode: overlay;
+  }
+}
+
+.single-agent-section {
+  position: absolute;
+  width: 100%;
+  bottom: -70px;
+
+  .single-title {
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 3.346px 3.716px 22.5px rgba(0, 0, 0, 0.07);
+
+    .portfolio-image {
+      img {
+        width: 100%;
+        border-radius: 6px 0 0 6px;
+      }
+    }
+
+    .agent-info {
+      display: inline-block;
+      vertical-align: top;
+      padding: 30px;
+      width: 100%;
+    }
+
+    .share-buttons {
+      .btn {
+        margin-left: 10px;
+
+        svg {
+          vertical-align: middle;
+          margin-bottom: 3px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.agent-box {
+  box-shadow: 3.346px 3.716px 22.5px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+
+  .agent-content {
+    padding: 24px 24px 48px 24px;
+    h3 {
+      font-size: 18px;
+      color: var(--theme-default);
+
+      // a {
+      //   color: var(--theme-default);
+      // }
+    }
+
+    ul.inline-contact {
+      float: inline-end;
+    }
+  }
+}
